@@ -16,4 +16,4 @@ fi
 
 # Run distclean to remove buildroot build artifacts and configuration
 echo "Running make distclean in buildroot..."
-make -C buildroot distclean
+make -C buildroot distclean 
