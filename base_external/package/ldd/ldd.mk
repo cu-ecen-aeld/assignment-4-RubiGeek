@@ -22,6 +22,6 @@ define LDD_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/misc-modules/*  $(TARGET_DIR)/usr/bin
 	$(INSTALL) -m 0755 $(@D)/scull/*  $(TARGET_DIR)/usr/bin
 endef
-
+asdfa
 $(eval $(generic-package))
 $(eval $(kernel-module))
