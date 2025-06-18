@@ -1,5 +1,5 @@
 
-config BR2_PACKAGE_MISC-MODULES
+config BR2_PACKAGE_LDD
 	bool "ldd"
 	help
 	  Includes ldd.
