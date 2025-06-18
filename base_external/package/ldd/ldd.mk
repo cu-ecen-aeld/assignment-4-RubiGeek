@@ -13,8 +13,6 @@ LDD_VERSION = 'd473accb3301a1d2c1527ca589aa160f4c0cbf5a'
 LDD_SITE = 'git@github.com/cu-ecen-aeld/assignment-7-RubiGeek.git'
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
-LDD_DEPENDENCIES = kernel-module		
-LDD_DEPENDENCIES += generic-package
 LDD_MODULE_SUBDIRS = misc-modules
 LDD_MODULE_SUBDIRS += scull
 
@@ -23,5 +21,5 @@ define LDD_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/scull/*  $(TARGET_DIR)/usr/bin
 endef
 
-$(eval $(generic-package))
 $(eval $(kernel-module))
+$(eval $(generic-package))
