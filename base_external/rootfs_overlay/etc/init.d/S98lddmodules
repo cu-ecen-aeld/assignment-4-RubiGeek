@@ -1,6 +1,7 @@
 #! /bin/sh
 
 start() {
+    cd /usr/bin
     echo "Loading lddmodules..."
     /usr/bin/scull_load
     /usr/bin/module_load faulty
